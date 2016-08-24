@@ -1,0 +1,16 @@
+This is a sample application to demonstrate the problem with using jQuery-UI and a pure es2015 (ES6) application using webpack.
+
+
+## Running it
+
+Install the web server. 
+
+`npm install http-server -g`
+
+Run the server.
+
+`./http-server`
+
+Open the page.
+
+`open http://localhost:8080`

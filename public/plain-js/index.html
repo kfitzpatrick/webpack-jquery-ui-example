@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <script src="jquery.js"></script>
+    <script src="jquery-ui/ui/core.js"></script>
+    <script src="jquery-ui/ui/keycode.js"></script>
+    <script src="jquery-ui/ui/version.js"></script>
+    <script src="jquery-ui/ui/widget.js"></script>
+    <script src="jquery-ui/ui/widgets/mouse.js"></script>
+    <script src="jquery-ui/ui/widgets/slider.js"></script>
+			<!--"./mouse",-->
+			<!--"../keycode",-->
+			<!--"../version",-->
+			<!--"../widget"-->
+    <script>
+
+    $('#h-slider').slider({
+        range: true,
+        values: [17, 67]
+    });
+    </script>
+  </head>
+  <body>
+    <h1>webpack + jquery-ui in ES 2015</h1>
+
+    <div id="main">Main Div</div>
+
+    <p>The following should appear to be a jquery ui slider.</p>
+
+    <div id="h-slider"></div>
+
+    <pre class="prettyprint linenums">
+    // Horizontal slider
+    $('#h-slider').slider({
+        range: true,
+        values: [17, 67]
+    });
+    </pre>
+  </body>
+</html>
