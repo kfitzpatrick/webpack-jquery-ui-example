@@ -1,0 +1,21 @@
+<html>
+  <body>
+    <h1>webpack + custom jquery-ui library files</h1>
+    <p>In this example, we include a webpack entry point like so...</p>
+    <pre>
+    </pre>
+    <p>Inside this entry.js you'll see the code that creates the slider.</p>
+
+    <div id="slider" style="width: 200px; height: 20px;"></div>
+
+    <pre class="prettyprint linenums">
+    // Horizontal slider
+    $('#slider').slider({
+        range: true,
+        values: [17, 67]
+    });
+    </pre>
+    <script src="dist/entry.js"></script>
+  </body>
+</html>
+
